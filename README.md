@@ -79,7 +79,7 @@ if __name__ == "__main__":
     indexer.create_documents_matrix(documents)
     indexer.print_documents_matrix_table()
     indexer.print_all_terms()
-
+    
     query = input("Enter your boolean query: ")
     results = indexer.boolean_search(query)
     if results:
